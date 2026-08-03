@@ -3,6 +3,11 @@ export const SOCIAL = {
   linkedin: "https://www.linkedin.com/company/fortomorrow-today/",
 } as const;
 
+/** Personal profiles for named team members. */
+export const PEOPLE = {
+  faridaLinkedin: "https://www.linkedin.com/in/drfaridajalal/",
+} as const;
+
 export const CONTACT = {
   email: "hello@fortomorrow.co",
   emailHref: "mailto:hello@fortomorrow.co",
