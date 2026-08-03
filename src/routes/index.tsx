@@ -21,7 +21,7 @@ import { Final } from "@/components/sections/Final";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "For Tomorrow — Credible sustainability, from today" },
+      { title: "For Tomorrow | Credible sustainability, from today" },
       {
         name: "description",
         content:

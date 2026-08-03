@@ -10,7 +10,7 @@ import { SOCIAL, externalLink } from "@/lib/site-links";
 export const Route = createFileRoute("/courses/")({
   head: () => ({
     meta: [
-      { title: "Sustainability Academy — Course Catalogue | For Tomorrow" },
+      { title: "Sustainability Academy | Course Catalogue | For Tomorrow" },
       {
         name: "description",
         content:

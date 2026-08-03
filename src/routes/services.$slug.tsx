@@ -42,7 +42,7 @@ export const Route = createFileRoute("/services/$slug")({
     if (!loaderData) {
       return {
         meta: [
-          { title: "Service not found — For Tomorrow" },
+          { title: "Service not found | For Tomorrow" },
           { name: "robots", content: "noindex" },
         ],
       };
@@ -50,7 +50,7 @@ export const Route = createFileRoute("/services/$slug")({
     const { svc } = loaderData;
     return {
       meta: [
-        { title: `${svc.title} — For Tomorrow` },
+        { title: `${svc.title} | For Tomorrow` },
         { name: "description", content: svc.tagline },
         { property: "og:title", content: `${svc.title} — For Tomorrow` },
         { property: "og:description", content: svc.tagline },

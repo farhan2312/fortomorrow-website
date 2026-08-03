@@ -18,11 +18,11 @@ export const Route = createFileRoute("/courses/$courseId")({
   head: ({ loaderData }) => {
     if (!loaderData) {
       return {
-        meta: [{ title: "Course unavailable — For Tomorrow" }, { name: "robots", content: "noindex" }],
+        meta: [{ title: "Course unavailable | For Tomorrow" }, { name: "robots", content: "noindex" }],
       };
     }
     const c = loaderData.course;
-    const title = `${c.title} — Sustainability Academy | For Tomorrow`;
+    const title = `${c.title} | Sustainability Academy | For Tomorrow`;
     return {
       meta: [
         { title },

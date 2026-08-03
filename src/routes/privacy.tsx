@@ -7,7 +7,7 @@ import { LegalPage } from "@/components/site/LegalPage";
 export const Route = createFileRoute("/privacy")({
   head: () => ({
     meta: [
-      { title: "Privacy Policy — For Tomorrow" },
+      { title: "Privacy Policy | For Tomorrow" },
       {
         name: "description",
         content:

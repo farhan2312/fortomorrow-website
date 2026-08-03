@@ -14,7 +14,7 @@ export const Route = createFileRoute("/book")({
   validateSearch: (s: Record<string, unknown>) => searchSchema.parse(s),
   head: () => ({
     meta: [
-      { title: "Book a consultation — For Tomorrow" },
+      { title: "Book a consultation | For Tomorrow" },
       { name: "description", content: "Schedule a sustainability consultation with For Tomorrow — strategy, carbon, reporting, verification, ratings, training." },
       { property: "og:title", content: "Book a consultation — For Tomorrow" },
       { property: "og:description", content: "A frictionless, premium booking flow for your first sustainability conversation." },
