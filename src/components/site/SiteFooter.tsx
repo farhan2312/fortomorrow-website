@@ -1,5 +1,4 @@
 import { Link } from "@tanstack/react-router";
-import logo from "@/assets/logo.asset.json";
 import { SOCIAL, CONTACT, externalLink } from "@/lib/site-links";
 
 const services = [
@@ -18,7 +17,7 @@ export function SiteFooter() {
         <div className="grid gap-10 md:grid-cols-2 lg:grid-cols-5">
           <div className="lg:col-span-1">
             <div className="flex items-center gap-2">
-              <img src={logo.url} alt="For Tomorrow" className="h-8 w-8 object-contain" />
+              <img src="/for-tomorrow-logo.png" alt="For Tomorrow" className="h-8 w-8 object-contain" />
               <div>
                 <div className="text-sm font-semibold">For Tomorrow</div>
                 <div className="text-[10px] italic text-muted-foreground">from today</div>

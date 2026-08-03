@@ -1,5 +1,4 @@
 import type { ReactNode } from "react";
-import logo from "@/assets/logo.asset.json";
 import { motion, useScroll, useTransform } from "framer-motion";
 import { Link, useRouterState } from "@tanstack/react-router";
 
@@ -55,7 +54,7 @@ export function Nav() {
     >
       <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-3">
         <SectionLink hash="top" className="flex items-center gap-2">
-          <img src={logo.url} alt="For Tomorrow" className="h-9 w-9 object-contain" />
+          <img src="/for-tomorrow-logo.png" alt="For Tomorrow" className="h-9 w-9 object-contain" />
           <div className="hidden leading-tight sm:block">
             <div className="text-[15px] font-semibold tracking-tight">For Tomorrow</div>
             <div className="text-[10px] italic text-muted-foreground">from today</div>
