@@ -11,8 +11,8 @@ export const PEOPLE = {
 export const CONTACT = {
   email: "hello@fortomorrow.co",
   emailHref: "mailto:hello@fortomorrow.co",
-  phone: "+971 4 000 0000",
-  phoneHref: "tel:+97140000000",
+  phone: "+971 58 172 9545",
+  phoneHref: "tel:+971581729545",
   offices: "Dubai · Bengaluru",
 } as const;
 
