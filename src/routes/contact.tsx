@@ -9,7 +9,6 @@ import { Breadcrumbs } from "@/components/site/Breadcrumbs";
 import { SOCIAL, CONTACT, externalLink } from "@/lib/site-links";
 import { COURSES } from "@/lib/courses-data";
 import { services } from "@/lib/services-data";
-import faridaImg from "@/assets/farida.jpg.asset.json";
 
 export const Route = createFileRoute("/contact")({
   validateSearch: (s: Record<string, unknown>): { course?: string } => ({
@@ -398,7 +397,7 @@ function ContactPage() {
               className="overflow-hidden rounded-3xl border border-border bg-card shadow-lift"
             >
               <img
-                src={faridaImg.url}
+                src="/farida.jpg"
                 alt="Dr. Farida, Founder and Principal of For Tomorrow"
                 width={1024}
                 height={1280}

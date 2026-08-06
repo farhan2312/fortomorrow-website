@@ -2,7 +2,6 @@ import { motion } from "framer-motion";
 import { Link } from "@tanstack/react-router";
 import { Counter } from "../site/Counter";
 import { PEOPLE, externalLink } from "@/lib/site-links";
-import faridaImg from "@/assets/farida.jpg.asset.json";
 
 const timeline = [
   { y: "2005", t: "Education", d: "Environmental science & policy foundations." },
@@ -49,7 +48,7 @@ export function Founder() {
               className="relative mt-10 aspect-[4/5] max-w-md overflow-hidden rounded-3xl border border-border shadow-lift"
             >
               <img
-                src={faridaImg.url}
+                src="/farida.jpg"
                 alt="Dr. Farida, founder and principal environmental scientist"
                 width={1024}
                 height={1280}
