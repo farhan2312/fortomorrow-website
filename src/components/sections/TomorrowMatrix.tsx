@@ -379,7 +379,7 @@ export function TomorrowMatrix() {
             </div>
           </div>
           <a
-            href="#assessment"
+            href="https://terra.fortomorrow.life"
             className="group inline-flex items-center gap-2 rounded-full bg-[var(--clay)] px-5 py-3 text-sm font-medium text-white shadow-lift transition-transform hover:-translate-y-0.5"
           >
             Launch demo
