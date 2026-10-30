@@ -158,7 +158,7 @@ function ContactPage() {
             />
             <OptionCard
               label="YouTube"
-              value="@ForTomorrow26"
+              value="@fortomorrow-life"
               href={SOCIAL.youtube}
               external
               accent="var(--ember)"

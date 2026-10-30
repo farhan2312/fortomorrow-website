@@ -1,5 +1,5 @@
 export const SOCIAL = {
-  youtube: "https://www.youtube.com/@ForTomorrow26",
+  youtube: "https://www.youtube.com/@fortomorrow-life",
   linkedin: "https://www.linkedin.com/company/fortomorrow-today/",
 } as const;
 
