@@ -61,7 +61,7 @@ export const Route = createFileRoute("/services/$slug")({
   notFoundComponent: NotFound,
   errorComponent: ({ error }) => (
     <div className="p-10 text-center text-sm text-muted-foreground">
-      Something went wrong: {error.message}
+      Something went wrong: {error instanceof Error ? error.message : "please try again."}
     </div>
   ),
 });
